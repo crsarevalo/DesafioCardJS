@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300;500&display=swap');
 * {
   margin: 0;
 }
@@ -13,7 +14,8 @@ body {
   align-items: center;
 }
 .card {
-   display: flex;
+  font-family: "Sono",sans-serif;
+  display: flex;
   flex-direction: column;
   border: solid black 1.5px;
   align-items: center;
@@ -22,7 +24,13 @@ body {
   background-color: rgb(222, 226, 228);
   border-radius: 1rem;
   filter: drop-shadow(8px 8px 8px black);
+
   }
+.moto{
+  font-family: "Sono",sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
 input {
   border-radius: 2rem;
 }
@@ -59,6 +67,8 @@ button:hover {
   border: solid 1px black;
   border-radius: 1rem;
   background-color: rgb(222, 226, 228);
+  font-family:"Sono",sans-serif ;
+  font-weight: 200;
 }
 
 .noflex{
