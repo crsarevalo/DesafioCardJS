@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HayabusaStore</title>
+    <link rel="stylesheet" href="assets/CSS/estilos.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="assets/img/hayabusa.jpg" alt="SZ Hayabusa" />
+      <h2>Suzuki Hayabusa</h2>
+      <!--datos-->
+      <div class="input1">
+        <input type="number" id="cantidad" placeholder="Cantidad" min="1" />
+      </div>
+
+      <div class="input2">
+        <input type="text" id="color" placeholder="Color" />
+      </div>
+      <h4 id="precio">Precio: 15000</h4>
+      <button id="operar">Calcular Total</button>
+
+      <!--resultados-->
+    </div>
+      <section class="container">
+        <div>Total:$ <span id="totalPrice">0</span></div>
+        <div>Cantidad: <span id="qt">0</span></div>
+        <div class="noflex">Color:<p id="selectedColor"></p>
+        </div>
+        
+      </section>
+    
+
+    <script src="assets/JS/JavaScript.js"></script>
+  </body>
+</html>
